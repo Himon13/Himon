@@ -4,8 +4,8 @@ Date-25/09/2024
 #include<stdio.h>
 main()
 {
-double funct1(double a, double b);
-double funct2(double a, double b);
+double funct1(double a, double b); // function prototype //
+double funct2(double a, double b); // function prototype //
 double a,b,c,d;
 ......
 c = funct1(a,b);
