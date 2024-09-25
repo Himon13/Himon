@@ -1,0 +1,27 @@
+//Write appropriate function prototype for each of the skeletal outlines shown below.
+Date-25/09/2024
+
+#include<stdio.h>
+main()
+{
+double funct1(double a, double b);
+double funct2(double a, double b);
+double a,b,c,d;
+......
+c = funct1(a,b);
+......
+d = funct2(a+b,a+c);
+}
+double funct1(double x, double y)
+{
+double z;
+......
+z = 10*funct2(x,y);
+return(z);
+}
+double funct2(double x, double y)
+{
+double z;
+z = ....;
+return(z);
+}
