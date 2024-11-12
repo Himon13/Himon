@@ -1,0 +1,138 @@
+\documentclass{beamer}
+\title{String and its Real-life Implementation}
+\author{Himon Gogoi}
+\institute{Roll No: 13, MCA $1^{st}$}
+\date{\today}
+
+\begin{document}
+
+\frame{\titlepage}
+\begin{frame}{Contents}
+\begin{itemize}
+    \item Introduction to Strings
+    \item Properties of Strings
+    \item Real-Life Implementation of Strings
+    \item Real-life Example: String Manipulation in Social Media
+    \item Example: String Manipulation in Search Engines
+    \item String handling function in C
+    \item Use of Strings in Databases
+    \item Conclusion
+    \end{itemize}
+\end{frame}
+\begin{frame}
+\frametitle{Introduction to Strings}
+\begin{itemize}
+    \item An array of character is known as string.
+    \item A string in C programming is a sequence of characters terminated with a null character.
+    \item In programming, strings are used to store and manipulate text.
+    \item The difference between a character array and a C string is that the string in C is terminated with a unique character.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Properties of Strings}
+\begin{itemize}
+    \item Strings can contain letters, digits, punctuation, and other symbols.
+    \item Strings are typically immutable (they cannot be changed directly once created in many programming languages like Python, Java).
+    \item String length can be measured.
+    \item Strings can be concatenated (joined together).
+    \item Strings can be compared lexicographically (in dictionary order).
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Real-Life Implementation of Strings}
+
+\begin{block}{Example: User Input in Web Applications}
+\begin{itemize}
+    \item When you log into a website, your username and password are strings.
+    \item Strings are used for validation, comparison, and storage.
+    \item Example: "Himon Gogoi" (username) and "mypassword123" (password).
+\end{itemize}
+\end{block}
+
+\begin{block}{Example: Text Processing in Word Processing Software}
+\begin{itemize}
+    \item In word processors, text (strings) is processed for spelling checks, grammar correction, formatting, etc.
+    \item String manipulation includes operations like searching, replacing, or modifying characters.
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}
+\frametitle{Real-life Example: String Manipulation in Social Media}
+\begin{itemize}
+    \item In social media applications like Facebook, Twitter, or Instagram, strings are used to represent usernames, posts, comments, etc.
+    \item Example: Searching for posts using keywords or hashtags involves string matching.
+    \item String operations include searching, filtering, and transforming text.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Example: String Manipulation in Search Engines}
+\begin{itemize}
+    \item When you type a search query, the search engine processes the string to find the most relevant results.
+    \item String operations include tokenization, ranking, matching, and displaying results.
+    \item Example: Google search handles strings such as "Strings Functions."
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{String handling function in C}
+\begin{itemize}
+    \item \textbf{strlen()} function : It is use to find the length of a character string. For e.g.\\
+    int n;\\
+    char st[20] = "Dibrugarh";\\
+    n = strlen(st);\\
+    This will return the length of the string 9.
+    \item \textbf{strcpy()} function : It is use to copy a character variable to a character string. For e.g.\\
+    char city[20];
+    strcpy{dist, "Dibrugarh"};\\
+    This will assign the string "Dibrugarh" to the character variable dist.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\begin{itemize}
+    \item \textbf{strcat()} function : It is used to join character strings.\\
+    char dist[20] = "Dibrugarh";\\
+    char pin[10] = "-786004";\\
+    strcat(city,pin);\\
+    This will join the two strings and store the result in city as "Dibrugarh-786004".
+    \item \textbf{strcmp() function} : It is use to compare two character strings.\\
+    char dist1[20] = "Dibrugarh";\\
+    char dist2[20] = "Tinsukia";\\
+    strcmp(dist1, dist2);\\
+    It will return an integer value -16 which is the difference in the ASCII value of the first mismatching letters 'D' and 'T'.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Use of Strings in Databases}
+\begin{itemize}
+    \item Strings are used in databases to store text data such as customer names, addresses, and product descriptions.
+    \item SQL queries often manipulate strings for searching or retrieving specific data.
+    \item Example: Finding a customer by name in a database table using a string:
+    
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Conclusion}
+\begin{itemize}
+    \item Strings are essential in both real-world applications and programming.
+    \item They are used for everything from simple text display to complex data processing tasks.
+    \item Understanding string manipulation is fundamental to solving many problems in computer science and software development.
+    \item From social media, web search, to database queries, strings play a crucial role in everyday computing.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Thank You!}
+\begin{center}
+    \textbf{Himon Gogoi} \\
+    Roll-No: 13, MCA-$1^{st}$
+\end{center}
+\end{frame}
+
+\end{document}
